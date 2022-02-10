@@ -6,9 +6,9 @@ import classes from "./MainNavigation.module.css";
 const MainNavigation = () => {
   return (
     <header className={classes.header}>
-      <NavLink to="/">
+      <Link to="/">
         <div className={classes.logo}>Travel Advisory</div>
-      </NavLink>
+      </Link>
       <nav>
         <ul>
           <li>
